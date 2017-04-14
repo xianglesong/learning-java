@@ -12,5 +12,6 @@
     <module>learning-java-basic</module>
     <module>learning-netty</module>
     <module>learning-java-rabbitmq</module>
+    <module>learning-spring-jpa</module>
   </modules>
 </project>
