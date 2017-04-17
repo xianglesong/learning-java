@@ -8,6 +8,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.4.1.RELEASE</version>
     </parent>
+    
     <groupId>com.xianglesong.course</groupId>
     <artifactId>learning-spring-jpa</artifactId>
     <version>1.0-SNAPSHOT</version>
