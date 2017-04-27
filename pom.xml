@@ -14,5 +14,6 @@
     <module>learning-java-rabbitmq</module>
     <module>learning-spring-jpa</module>
     <module>learning-spring-kafka</module>
+    <module>learning-spring-rabbitmq</module>
   </modules>
 </project>
