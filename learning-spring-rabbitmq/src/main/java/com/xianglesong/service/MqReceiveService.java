@@ -19,11 +19,12 @@ public class MqReceiveService {
     System.out.println("received: " + object);
   }
 
-  @RabbitListener(queues = "queue-1")
-  public void processMessage(String content) {
-    System.out.println("received: " + content);
-    // throw new RuntimeException("test");
-  }
+//  @RabbitListener(queues = "queue-1")
+//  public void processMessage1(Message messgage) {
+//    String object = new String(messgage.getBody());
+//    System.out.println("received1: " + object);
+//    throw new RuntimeException("test");
+//  }
 
 
   // @RabbitListener(queues = "queue-1")
@@ -41,14 +42,14 @@ public class MqReceiveService {
   // System.out.println("received -3: " + content);
   // }
 
-  @RabbitListener(queues = "queue-1f")
-  public void processMessagef(String content) {
-    System.out.println("received 1f: " + content);
-  }
-
-  @RabbitListener(queues = "queue-2f")
-  public void processMessage2f(String content) {
-    System.out.println("received 2f: " + content);
-  }
+//  @RabbitListener(queues = "queue-1f")
+//  public void processMessagef(String content) {
+//    System.out.println("received 1f: " + content);
+//  }
+//
+//  @RabbitListener(queues = "queue-2f")
+//  public void processMessage2f(String content) {
+//    System.out.println("received 2f: " + content);
+//  }
 
 }
