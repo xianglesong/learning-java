@@ -32,8 +32,7 @@ public class MyStarts implements Runnable {
         RabbitMQSendService rabbitMQSendService = (RabbitMQSendService) context.getBean("rabbitMQSendService");
 //        rabbitMQSendService.sendMsg("test1 at " + new Date().toString());
 
-
-        rabbitMQSendService.sendMsg("test2 at " + new Date().toString());
+         rabbitMQSendService.sendMsg("test2 at " + new Date().toString());
 
     }
 

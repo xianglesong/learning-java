@@ -19,12 +19,12 @@ public class MqReceiveService {
     System.out.println("received: " + object);
   }
 
-//  @RabbitListener(queues = "queue-1")
-//  public void processMessage1(Message messgage) {
-//    String object = new String(messgage.getBody());
-//    System.out.println("received1: " + object);
-//    throw new RuntimeException("test");
-//  }
+  @RabbitListener(queues = "queue-1")
+  public void processMessage1(Message messgage) {
+    String object = new String(messgage.getBody());
+    System.out.println("received1: " + object);
+    // throw new RuntimeException("test");
+  }
 
 
   // @RabbitListener(queues = "queue-1")

@@ -37,11 +37,9 @@ public class RabbitMQSendService {
             }
         });
 
-         rabbitTemplate.convertAndSend("exchange-1", "route-11", msg, new CorrelationData("xxx"));
+     rabbitTemplate.convertAndSend("exchange-11", "route-1", msg, new CorrelationData("xxx"));
 
-         // rabbitTemplate.convertAndSend("exchange-1", "route-1", msg);
-
-
+  //    rabbitTemplate.convertAndSend("exchange-11", "route-11", msg);
 
         System.out.println("send msg: " + msg);
 
